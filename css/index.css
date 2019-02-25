@@ -242,8 +242,8 @@
 .nearby_part p:nth-of-type(3)
 {
 	font-family: iconfont;
-	font-size: 0.4rem;
-	padding-top: 0.2rem;
+	font-size: 0.5rem;
+	padding-top: 0.3rem;
 }
 .nearby_part p:nth-of-type(1) i,
 .nearby_part p:nth-of-type(2) i{
