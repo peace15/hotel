@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>详细信息</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    .carousel-inner img {
+      width: 100%;
+    }
+
+    /* img
+    {
+    width :100% ;height:100%；
+    } */
+
+    /* .dialog-bg .img-box
+    {
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+} */
+    p {
+      margin-left: 1rem;
+    }
+
+    h5 {
+      margin-left: 1rem;
+    }
+
+    /* 酒店评价 */
+    .hotelAppraise {
+      border: 0.01rem solid #007bff;
+      margin-right: 0.5rem;
+      padding: 0.2rem 0.2rem;
+      font-size: 0.5rem;
+
+    }
+
+    /* 酒店名称 */
+    .hotelName {
+      font-size: 1.2rem;
+      margin-top: 0.1rem;
+    }
+
+    /* 酒店图片 */
+    .hotelimg {
+      margin-bottom: 0.2rem;
+    }
+
+    /* 分割线 */
+    hr {
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+    }
+
+    /* 酒店开业时间 */
+    .hoteloPeningTime {
+      margin-right: 0.8rem;
+    }
+
+    span {
+      margin-right: 0.4rem;
+      font-size: 0.8rem;
+
+    }
+
+    /* 酒店信息细节 */
+    .details {
+      color: #6c757d;
+    }
+
+    .tel {
+      background-color:#ffc107;
+      height: 3rem;
+    }
+    /* 酒店联系电话 */
+    .telFont
+    {
+      width: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- 指示符 -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+    <!-- 酒店图片 -->
+    <div class="carousel-inner hotelimg">
+      <div class="carousel-item active">
+        <img src="https://peace15.github.io/jd/酒店图片/微信图片_20190220133808.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="https://peace15.github.io/jd/酒店图片/微信图片_20190220133852.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="https://peace15.github.io/jd/酒店图片/微信图片_20190220133843.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="https://peace15.github.io/jd/酒店图片/微信图片_20190220133838.jpg">
+      </div>
+    </div>
+    <!-- 左右切换按钮 -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <p><span class="hotelName">星期天精品主题公寓</span></p>
+
+  <h5>酒店设施</h5>
+  <p>
+    <span class="hoteloPeningTime">2017年装修</span>
+    <span class="text-primary hotelAppraise">情侣约会</span>
+    <span class="text-primary hotelAppraise">近地铁</span>
+  </p>
+  <p>
+    <span class="details">无线上网</span>
+    <span class="details">行李寄存</span>
+    <span class="details">热水淋浴</span>
+    <span class="details">电吹风</span>
+  </p>
+  <!-- 分割线 -->
+  <hr>
+  <h5>订房必读</h5>
+  <p>
+    <span>入离时间:</span>
+    <span class="details">入店时间 14:00以后</span>
+    <span class="details">离店时间12:00以前</span>
+  </p>
+  <p>
+
+  </p>
+  <p>
+    <span>宠物携带</span>
+    <span class="details">不允许携带宠物</span>
+
+  </p>
+  <!-- 分割线 -->
+  <hr>
+  <h5> 酒店介绍</h5>
+  <p>
+    <span class="details">装修时间</span>
+    <span>2017年</span>
+    <span class="details hotelDetails">开业时间</span>
+    <span>2017年</span>
+  </p>
+  <p>
+    <span class="details">楼层高度</span>
+    <span>29层</span>
+    <span class="details hotelDetails">房间总数</span>
+    <span>30间</span>
+  </p>
+
+  <p>
+    <span class="text-dark">
+      星期天精品主题公寓，位于沈阳市皇姑区师范大学地铁口A口附近，出行方便师范大学店，欢迎入住。
+    </span>
+  </p>
+  <br>
+  <br>
+  <footer class="navbar-fixed-bottom">
+    <div class="container tel" >
+      <a href="#" class="telFont text-light" >联系电话</a>
+    </div>
+  </footer>
+  <!-- 放大后图片
+   <div class="modal fade  text-center dialog-bg" id="imgModal"  > aria-hidden="true"  bs-example-modal-lg
+  <div class="modal-dialog modal-lg img-box"  id="imgshow"  >
+  </div>
+  </div>-->
+
+  <script>
+    // 实现轮播图手指左右滑动事件
+    $(function () {
+      // 获取手指在轮播图元素上的一个滑动方向（左右）
+
+      // 获取界面上轮播图容器
+      var $carousels = $('.carousel');
+      var startX, endX;
+      // 在滑动的一定范围内，才切换图片
+      var offset = 50;
+      // 注册滑动事件
+      $carousels.on('touchstart', function (e) {
+        // console.log(e);
+        // 手指触摸开始时记录一下手指所在的坐标x
+        startX = e.originalEvent.touches[0].clientX;
+
+      });
+      $carousels.on('touchmove', function (e) {
+        // 目的是：记录手指离开屏幕一瞬间的位置 ，用move事件重复赋值
+        endX = e.originalEvent.touches[0].clientX;
+      });
+      $carousels.on('touchend', function (e) {
+        //console.log(endX);
+        //结束触摸一瞬间记录手指最后所在坐标x的位置 endX
+        //比较endX与startX的大小，并获取每次运动的距离，当距离大于一定值时认为是有方向的变化
+        var distance = Math.abs(startX - endX);
+        if (distance > offset) {
+          //说明有方向的变化
+          //根据获得的方向 判断是上一张还是下一张出现
+          $(this).carousel(startX > endX ? 'next' : 'prev');
+        }
+      })
+    });
+           //点击放大
+       //    function showMaxImg(obj)
+       //{
+       // var src=$(obj).attr("src");
+       // $("#imgModal").find("#imgshow").html("<img src='"+src+"' data-dismiss='modal'  >");
+       // $("#imgModal").modal('show');
+       //}
+  </script>
+
+</body>
+
+</html>
